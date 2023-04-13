@@ -2,6 +2,7 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
+  background-color: #f8f7f7;
 }
 
 .header {
@@ -10,7 +11,7 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 56px;
+  padding-top: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +22,12 @@ body {
 .footer {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #f7f7f7;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer__copyrights {
+  margin-left: 100px;
 }
 
 .wrap {
@@ -38,11 +44,11 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .nav > li {
-  margin-left: 37px;
+  margin-left: 40px;
 }
 
 .nav > li > a {
@@ -84,7 +90,7 @@ body {
 }
 
 .logo_text {
-  font-size: 24px;
+  font-size: 28px;
   color: #202020;
 }
 
@@ -127,18 +133,19 @@ body {
   position: relative;
 }
 
-.page-top {
+/* .page-top {
   border-top: 1px solid #c2c2c2;
-}
+} */
 
 .page h2 {
   position: absolute;
   top: -24px;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 300;
-  background-color: #fff;
+  background-color: #5528ff;
+  border-radius: 10px;
   padding: 5px 15px;
-  color: #c2c2c2;
+  color: #000;
 }
 
 .services {
@@ -171,7 +178,7 @@ body {
 
 .services p {
   font-size: 14px;
-  color: #b2b2b2;
+  color: #4f4f4f;
   line-height: 1.5;
 }
 
@@ -213,7 +220,7 @@ body {
 
 .team-item p {
   font-size: 14px;
-  color: #b2b2b2;
+  color: #4f4f4f;
 }
 
 .box-footer {
